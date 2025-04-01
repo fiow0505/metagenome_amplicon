@@ -11,7 +11,7 @@ ori_metafile=${2} #${out_pth}/metadata.240320.txt
 grp=${3} #metadata group column
 sort_grp=${4} #'Control_Female,Control_Male,Patients_Female,Patients_Male'
 paired=${5} # TRUE or FALSE
-group_n=`head -n1 ${ori_metafile} | tr "\t" "\n" | grep -n ${grp} | awk -F":" '{print $1-1}'`
+group_n=`head -n1 ${ori_metafile} | tr "\t" "\n" | grep -nx ${grp} | awk -F":" '{print $1-1}'`
 script_pth=${CONDA_PREFIX}/opt/metagenome_amplicon/
 date=`date "+%Y-%m-%d"`
 comp_pth=${out_pth}/${date}.comparison_analysis
@@ -26,7 +26,7 @@ lefse_pth=${grp_comp_pth}/LEfSe
 
 #cp ${metafile} ${comp_pth}
 metafile=${comp_pth}/analysis_pass.metadata.txt
-perl ${script_pth}/table.addColumns.pl -i stats_out.txt 0 ${ori_metafile} 0 ${group_n} > ${metafile}
+perl ${script_pth}/table.addColumns.pl -i stats_out.txt 0 ${ori_metafile} 0 ${group_n} -m > ${metafile}
 
 echo -e "Calculate the diversity score"
 echo -e ">> Alpha diversity"
