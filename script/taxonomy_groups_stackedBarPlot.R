@@ -1,4 +1,4 @@
-# Author : Kyeongeui Yun (sindy@hunbiome.com)
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
 # 2023. 08. 08
 #!/usr/bin/env Rscript
 options(warn = -1) # Turn off warning
