@@ -1,6 +1,7 @@
-# Author : Kyeongeui Yun (sindy@hunbiome.com)
-# 2024. 10. 16
 #!/usr/bin/env Rscript
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# 2024. 10. 16
+
 options(warn = -1) # Turn off warning
 
 site="https://mirrors.tuna.tsinghua.edu.cn/CRAN"
