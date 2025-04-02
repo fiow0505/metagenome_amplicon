@@ -1,5 +1,6 @@
 #!/bin/bash
-# update : 2024.10.16 sindy@hunbiome.com
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# update : 2024.10.16 
 
 import pandas as pd, numpy as np
 import os, re, qiime2, biom
