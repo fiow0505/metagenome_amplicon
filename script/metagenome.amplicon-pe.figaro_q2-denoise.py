@@ -9,7 +9,7 @@ from qiime2 import (Artifact, Metadata)
 import time
 import datetime
 import re
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname("/data/sindy/Source/figaro/figaro/"))))
+sys.path.append(os.path.join(os.environ.get("CONDA_PREFIX"), "opt/figaro/figaro/"))
 from figaro import figaro
 file_name = "Figaro_default.q2-pipeline_1.py"
 code_time = time.time()
