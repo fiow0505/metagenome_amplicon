@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
 # update : 2022.11
 import os
 import pandas as pd
