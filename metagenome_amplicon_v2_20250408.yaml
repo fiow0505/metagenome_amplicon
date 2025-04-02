@@ -1,4 +1,4 @@
-name: qiime2-amplicon-2023.9
+name: metagenome_amplicon
 channels:
   - https://packages.qiime2.org/qiime2/2023.9/amplicon/released
   - defaults
