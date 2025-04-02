@@ -713,4 +713,4 @@ dependencies:
       - biopython==1.83
       - et-xmlfile==1.1.0
       - openpyxl==3.1.2
-prefix: /data/sindy_test/miniconda3/envs/qiime2-amplicon-2023.9
+
