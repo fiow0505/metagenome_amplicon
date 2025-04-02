@@ -1,5 +1,7 @@
-# 2024. 06. 24 sindy@hunbiome.com
 #/bin/bash
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# 2024. 06. 24
+
 
 if [ "$#" -lt "3" -o "$#" ]; then
 	echo "##### check the parameters #####"
