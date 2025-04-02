@@ -1,5 +1,7 @@
-#2023-08-24; sindy (sindy@hunbiome.com)
 #!/usr/bin/env python
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# date: 2023-08-24 
+
 import sys, os
 from time import localtime, strftime
 from optparse import OptionParser as OP
