@@ -1,6 +1,7 @@
+#!/usr/bin/env Rscript
 # Author : Kyeongeui Yun (fiow3250@gmail.com)
 # 2023. 08. 08
-#!/usr/bin/env Rscript
+
 options(warn = -1) # Turn off warning
 
 site="https://mirrors.tuna.tsinghua.edu.cn/CRAN"
