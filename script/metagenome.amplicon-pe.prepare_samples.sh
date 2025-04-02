@@ -1,4 +1,4 @@
-# Author : Kyeongeui Yun (sindy@hunbiome.com)
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
 #/bin/bash
 if [ "$#" -lt "5" -o "$#" -gt "6" ]; then
 	echo "##### Prepare reseach samples for qiime2 pipeline #####"
