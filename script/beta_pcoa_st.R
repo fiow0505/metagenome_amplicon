@@ -1,6 +1,5 @@
-#2023-08-23
-# Author : Kyeongeui Yun (sindy@hunbiome.com)
-#source /data/shared/enviroment/add.sh
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# 2023-08-23
 #!/usr/bin/env Rscript
 
 options(warn = -1)
