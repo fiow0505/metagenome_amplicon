@@ -1,4 +1,5 @@
-#2023.06.02 sindy@hunbiome.com
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# 2023.06.02 
 
 import os
 import pandas as pd
