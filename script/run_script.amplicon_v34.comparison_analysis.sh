@@ -1,4 +1,6 @@
-#/bin/bash 2024-03-19 sindy@hunbiome.com
+#/bin/bash
+# Author : Kyeongeui Yun (fiow3250@gmail.com)
+# update: 2024-03-19 
 
 if [ "$#" -lt "5" -o "$#" ]; then
         echo "##### check the parameters #####"
