@@ -22,3 +22,7 @@ pip3 install -r ${CONDA_PREFIX}/opt/figaro/requirements.txt
 R
 install.packages(c("cowplot", "ggprism", "ggpubr"))
 ```
+
+## Setting the SILVA database
+```
+```
